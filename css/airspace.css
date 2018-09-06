@@ -606,14 +606,14 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	slider-contact Start
 --*/
-#slider-contact {
-  background: url("../img/slider-bg.jpg") no-repeat;
+#mountains-contact {
+  background: url("../img/mountains-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
 }
-#slider-contact:before {
+#mountains-contact:before {
   content: "";
   position: absolute;
   left: 0;
@@ -625,12 +625,12 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
   opacity: 0.8;
 }
-#slider-contact .block {
+#mountains-contact .block {
   color: #E3E3E4;
   margin: 0 auto;
   padding-left: 90px;
 }
-#slider-contact .block h1 {
+#mountains-contact .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
@@ -638,7 +638,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 6px;
   padding-bottom: 15px;
 }
-#slider-contact .block p {
+#mountains-contact .block p {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
