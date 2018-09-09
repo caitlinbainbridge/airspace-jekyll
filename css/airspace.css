@@ -157,9 +157,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 40px;
   width: 100%;
 }
-#intro .block img {
+#intro .block img2 {
   padding-left: 40px;
-  width: 300%;
+  width: 100%;
 }
 #intro .section-title {
   margin-bottom: 0px;
