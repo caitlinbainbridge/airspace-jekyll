@@ -136,6 +136,10 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
   text-align: center;
 }
+#mountains .block img {
+  width: 100%;
+  postiton: absolute;
+}
 /*--
 	wrapper Start
 --*/
