@@ -138,7 +138,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #mountains .block img {
   width: 150px;
-  postiton: relative;
+  postiton: absolute;
+  padding-left: 40px;
+  padding-top: 40px;
 }
 /*--
 	wrapper Start
