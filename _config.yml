@@ -17,7 +17,7 @@ keep_files:
 title: Caitlin Bainbridge
 subtitle: "Corporate Health and Wellness"
 url: "http://caitlinbainbridge.github.io" # the base hostname & protocol for your site
-baseurl: ""
+baseurl: "/airspace-jekyll"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
