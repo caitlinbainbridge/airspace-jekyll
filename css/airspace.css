@@ -73,7 +73,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  font-size: 20px;
 }
 header .navbar-default {
   background: none;
@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 120px 0;
   position: relative;
 }
 #mountains:before {
@@ -138,8 +138,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #mountains .block img {
   width: 150px;
-  padding-left: 40px;
-  padding-top: 40px;
+  position: relative;
+  margin-top: 50px;
 }
 /*--
 	wrapper Start
@@ -157,10 +157,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
+
+}
+
+#intro .block img:first-child {
+  padding-top: 40px;
 }
 #intro .block img2 {
   padding-left: 40px;
