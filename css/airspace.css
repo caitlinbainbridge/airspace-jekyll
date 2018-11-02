@@ -705,11 +705,13 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .address-block li {
   margin-bottom: 20px;
+  positon: relavite;
 }
 .address-block li i {
   margin-right: 15px;
   font-size: 20px;
   width: 20px;
+  positon: relative;
 }
 .social-icons {
   margin-top: 40px;
@@ -717,6 +719,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .social-icons li {
   display: inline-block;
   margin: 0 6px;
+  position: relative;
 }
 .social-icons a {
   display: inline-block;
@@ -725,6 +728,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #2C2C2C;
   margin-right: 25px;
   font-size: 25px;
+  position: relative;
 }
 .google-map {
   position: relative;
@@ -747,11 +751,12 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
   font-size: 28px;
   padding-bottom: 30px;
-  position: relative; 
+  position: relative;
 }
 #contact-box .block p {
   color: #5C5C5C;
   display: block;
+  position: relative;
 }
 /*--
 	features-contact Start
