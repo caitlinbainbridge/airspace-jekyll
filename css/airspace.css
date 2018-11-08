@@ -710,6 +710,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 15px;
   font-size: 20px;
   width: 20px;
+  position: absolute;
 }
 .social-icons {
   margin-top: 40px;
@@ -717,14 +718,17 @@ font header .navbar-default .navbar-nav li a:hover {
 .social-icons li {
   display: inline-block;
   margin: 0 6px;
+  position: absolute;
 }
 .social-icons a {
   display: inline-block;
+  position: absolute; 
 }
 .social-icons i {
   color: #2C2C2C;
   margin-right: 25px;
   font-size: 25px;
+  position: absolute;
 }
 .google-map {
   position: relative;
@@ -747,6 +751,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
   font-size: 28px;
   padding-bottom: 30px;
+  position: absolute;
 }
 #contact-box .block p {
   color: #5C5C5C;
