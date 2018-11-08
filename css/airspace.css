@@ -705,6 +705,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .address-block li {
   margin-bottom: 20px;
+  position: absolute;
 }
 .address-block li i {
   margin-right: 15px;
@@ -714,6 +715,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .social-icons {
   margin-top: 40px;
+  position: absolute;
 }
 .social-icons li {
   display: inline-block;
@@ -722,7 +724,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .social-icons a {
   display: inline-block;
-  position: absolute; 
+  position: absolute;
 }
 .social-icons i {
   color: #2C2C2C;
@@ -741,9 +743,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-box {
   padding-top: 35px;
   padding-bottom: 58px;
+  position: absolute;
 }
 #contact-box .block img {
   width: 100%;
+  position: absolute;
 }
 #contact-box .block h2 {
   font-family: 'Open Sans', sans-serif;
@@ -756,6 +760,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-box .block p {
   color: #5C5C5C;
   display: block;
+  position: absolute;
 }
 /*--
 	features-contact Start
@@ -763,12 +768,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #features-contact {
   padding-top: 50px;
   padding-bottom: 75px;
+  position: absolute;
 }
 #features-contact .block ul li {
   width: 19%;
   text-align: center;
   display: inline-block;
   padding: 40px 0px;
+  position: absolute;
 }
 /*---------------------------------------------
 					Contact Close
