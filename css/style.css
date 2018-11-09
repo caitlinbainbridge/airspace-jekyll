@@ -16,24 +16,73 @@
    text-align: center;
  }
 
+
 .post-area {
   padding: 40px;
-  width: 100%;
+  width: calc(100% - 40px);
   min-height: 150px;
   background-color: white;
   border-bottom: 1px dotted #ddd;
 }
 
-.post-area a:link, .post-area a:visited {
+.blog-title:link, .blog-title:visited {
   font-size: 30px;
+  text-decoration: underline;
   color: #333;
-}
-
-.post-area a:hover {
-  color: #0D0017;
 }
 
 .centered {
   display: block;
   margin: 0 auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border: 2px solid rgb(240,240,240);
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 20px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  flex: 0 0 auto;
+  transition: opacity 200ms;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  opacity: 1;
+}
+
+.card-button {
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.card-button:hover {
+  color:white;
+  background: green;
+}
+
+.card-button:active {
+  letter-spacing: 2px;
 }

@@ -1,0 +1,7 @@
+.portfolio-card {
+    width: calc(33.333333% - 2*20px);
+}
+
+.portfolio-card-title {
+    font-size: 22px;
+}

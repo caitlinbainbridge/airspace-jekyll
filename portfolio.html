@@ -17,7 +17,15 @@ permalink: /portfolio/
     </div>
 </section>
     <!-- Portfolio Start -->
-<section id="portfolio-work">
+<section id="portfolio-work" class="cards-container">
+    {% assign ordered_projects = site.projects | sort:"order" %}
+    {% for project in ordered_projects %}
+        <div class="card portfolio-card">
+            <img class="portfolio-card-image" src="../img/portfolio/{{ project.image }}" />
+            <h2 class="portfolio-card-title">{{ project.name }}</h2>
+            <p class="portfolio-card-content">{{ project.content | markdownify }}</p>
+        </div>
+    {% endfor %}      
 </section>
 
 <!-- Clients Logo Section Start -->
